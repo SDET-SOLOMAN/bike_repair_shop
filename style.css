@@ -1,0 +1,136 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    color: aliceblue;
+    background-image: linear-gradient(#fc5e55, #fa4083);
+}
+
+.container {
+    width: 1024px;
+    min-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+}
+
+.cards {
+    align-items: center; 
+    text-align: center;   
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    border-radius: 20px 20px 20px 20px;
+    width: 30%;
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/image-background-card1.jpg);
+}
+
+.card2 {
+    border-radius: 20px 20px 20px 20px;
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    background-image: url(images/image-background-card2.jpg);
+}
+
+.card3 {
+    border-radius: 20px 20px 20px 20px;
+    min-height: 250px;
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+    background-image: url(images/image-background-card3.jpg);
+}
+
+.card1, .card2, .card3 {
+    box-shadow: 10px 10px 8px black;
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+
+.herobox1 {
+    padding-right: 100px;
+    flex: 2;
+}
+
+.herobox2 {
+    flex: 1;
+}
+
+h1 {
+    font-family: Playfair;
+    font-size: 3.25rem;
+    margin-bottom: 1.25rem;
+}
+
+h2 {
+    font-family: Playfair;
+    font-size: 2rem;
+}
+
+p {
+    line-height: 1.89754rem;
+    margin-bottom: 1rem;
+}
+
+.cards p {
+    line-height: 1.35rem;
+    margin-bottom: .55rem;
+    margin-top: 10px;
+}
+
+i {
+    font-size: 5rem;
+}
+
+.cards a {
+    text-decoration: none;
+    color: white;
+}
+
+.book {
+    box-shadow: 10px 10px 8px black;
+    text-decoration: none;
+    color:#fa4083;
+    background-color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.bike_repair_man {
+    box-shadow: 10px 10px 8px black;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.logo {
+    box-shadow: 10px 10px 8px black;
+
+}
+
+nav a {
+    margin-left: 15px;
+}
